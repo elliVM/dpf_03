@@ -51,7 +51,6 @@ import com.teragrep.blf_01.Tokenizer
 import org.apache.spark.sql.{Encoder, Encoders, Row}
 import org.apache.spark.sql.catalyst.encoders.ExpressionEncoder
 import org.apache.spark.sql.expressions.Aggregator
-import org.apache.spark.unsafe.types.UTF8String
 
 import java.nio.charset.StandardCharsets
 import scala.reflect.ClassTag
